@@ -1,14 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Saray Varela">
-        <link rel="icon" href="./img/icon.png" sizes="32x32">
-        <link rel="stylesheet" href="css/footer.css">
-        <title>Pr03_2 - HtmlCss</title>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Saray Varela">
+    <link rel="icon" href="./img/icon.png" sizes="32x32">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/pelicula.css">
+    <title>Pr03_2 - HtmlCss</title>
+</head>
+
 <body>
-    
+    <!-- Header -->
+    <header>
+        <img src="./img/logo.png"><br>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="pelicullas.html">Peliculas</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Title -->
+        <h1>Puntos suspensivos</h1>
+        <img src="./img/pelis/puntos_suspensivos.jpg" height="170px">
+        <section>
+            <!-- Year Publication-->
+            <p><span>Año de publicación: </span>2024</p>
+            <!-- Time -->
+            <p><span>Duración: </span>82 min</p>
+            <!-- Country -->
+            <p><span>País de origen: </span><img id="flag" src="/VarelaSaray/img/flag-spain.jpg">España</p>
+            <!-- Director -->
+            <p><span>Dirección: </span>David Marqués</p>
+            <!-- Guide -->
+            <p><span>Guionistas: </span>David Marqués, Rafael Calatayud Cano</p>
+            <!-- Puntuation -->
+            <p><span>Puntuación: </span>5,9</p>
+            <!-- Description -->
+            <p><span>Descripción: </span>Leo, un exitoso escritor que firma como Cameron Graves, se refugia en un chalet para escribir su
+                nueva
+                novela. Su aislamiento se quiebra con la llegada de Jota, un enigmático periodista que parece
+                conocer
+                más de lo que debería. Con un oscuro secreto vinculado a Adriana, su joven amante, las tensiones
+                escalan
+                en un juego de mentiras, traiciones y muerte entre ambos.
+            </p>
+            <!--Genero y edad recomendada-->
+            <p>
+                <span>Genero: </span>Intriga, Thriller, Crimen, Literatura, Escenario único
+                <span id="edad"> +12</span>
+            </p>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <a href="http://scanfcode.com/about/">Contact Us</a>
+                    <a href="#">Privacy Policy</a>
+                    <hr>
+                    <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by
+                        <a href="#">ItbFlix</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

@@ -1,0 +1,32 @@
+main{
+    padding: 10px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    justify-items: center;
+}
+main h1{
+    color: #867aa0;
+    text-decoration: underline #26272b;
+}
+main span{
+    color: #867aa0;
+    font-weight: bold;
+}
+main img{
+    width: 200px;
+    height: 50%;
+    padding-right: 5px;
+    opacity: 1;
+}
+#edad{
+    background-color: #867aa0;
+    color: #26272b;
+    border-radius: 20%;
+}
+#flag{
+    height: 14px;
+    width: 20px;
+}
+main section{
+    background-color: #867aa03a;
+}
